@@ -1,0 +1,9 @@
+# .gitignore
+*.zip
+*.mp4
+*.psd
+*.exe
+node_modules/
+vendor/
+.idea/
+.DS_Store
