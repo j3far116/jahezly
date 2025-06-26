@@ -1,0 +1,77 @@
+name: jahezly_5
+description: "Jahezly App"
+publish_to: 'none'
+## Android
+## version: 1.0.0+2
+## iPhone
+version: 1.0.2
+
+environment:
+  sdk: ^3.8.0-70.0.dev
+
+dependencies:
+  flutter:
+    sdk: flutter
+  easy_localization: ^3.0.7+1
+  shared_preferences: ^2.5.2
+  http: ^1.3.0
+  another_flutter_splash_screen: ^1.2.1
+  cached_network_image: ^3.4.1
+  visibility_detector: ^0.4.0+2
+  flutter_pin_code_fields: ^2.2.0
+  timeline_tile: ^2.0.0
+  #anchor_tabs: ^0.0.9
+  ##
+  provider: ^6.1.2
+  path_provider: ^2.1.5
+  ##
+  path: ^1.9.1
+  sqflite: ^2.4.2
+  sqlite_viewer: ^1.0.5
+  ##
+  url_launcher: ^6.3.1
+  gif_view: ^1.0.0
+  ##
+  ##
+  ## Junk
+  rename: ^3.0.2
+  ##
+  ##  ##
+  ##  ##
+  ##  ##
+  ##  ##
+  ##  ##
+  ##  ##
+  ##
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  ##
+  ##  ##
+  ##  ##
+  ##  ##
+  ##  ##
+  ##  ##
+  ##  ##
+  ##
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/translations/
+  
+  fonts:
+    - family: JahezlyLight
+      fonts:
+        - asset: assets/fonts/IBM-Light.ttf
+    - family: Jahezly
+      fonts:
+        - asset: assets/fonts/IBM-Regular.ttf
+    - family: JahezlyBold
+      fonts:
+        - asset: assets/fonts/IBM-Medium.ttf
+    - family: J3Icons
+      fonts:
+        - asset: assets/fonts/J3Icon.ttf
